@@ -1,0 +1,157 @@
+*{
+    text-decoration: none;
+
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; /* Adjust the font size as needed */
+    margin: 0;
+    color:white;
+    background-color: blue;
+    padding: 5px;
+    }
+    
+    /* Style the logo image */
+    .logo {
+    width: 50px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and text */
+    }
+    li{
+    display: inline;
+    margin-left: 15px;
+    }
+    ul{
+    background-color: blue;
+    padding: 10px;
+    margin: 0px;
+    padding-left: 60%;
+    }
+    a{
+    font-weight: bolder;
+    font-size: larger;
+    color: white; 
+    font-family: sans-serif;
+    }
+    a:hover{
+    color: lightgreen;
+    }
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: ;
+}
+
+.img {
+    height: 200px;
+    width: auto;
+    float: left;
+    border-color:aqua;
+    border-width: 8px;
+    border-style:outset;
+    margin: 20px;
+    border-radius: 50%; 
+    
+    
+
+}
+p{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 5px;
+   
+}
+. image{
+    margin-left: 10px;
+    text-align: justify;
+
+}
+
+.my-button {
+    background-color: #4CAF50; Green 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.my-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+
+
+/* responsive */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+.image {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+   
+}
+.my-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.my-button:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image {
+        width: 90%;
+    }
+}

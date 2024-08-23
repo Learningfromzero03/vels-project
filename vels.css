@@ -1,0 +1,112 @@
+*{
+    text-decoration: none;
+
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; /* Adjust the font size as needed */
+    margin: 0;
+    color:black;
+    background-color: blue;
+    padding: 5px;
+    }
+    
+    /* Style the logo image */
+    .logo {
+    width: 50px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and text */
+    }
+    li{
+    display: inline;
+    margin-left: 15px;
+    }
+    ul{
+    background-color: blue;
+    padding: 10px;
+    margin: 0px;
+    padding-left: 70%;
+    }
+    a{
+    font-weight: bolder;
+    font-size: larger;
+    color: black; 
+    font-family: sans-serif;
+    }
+    a:hover{
+    color: lightgreen;
+    }
+
+
+
+
+/* sfghdaflkjfdhsg */
+
+.container {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    max-width: 100%;
+    height: 250px;
+    float: none;
+    background-color: black;
+    
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    /* float:left; */
+    height: 150px;
+    width: 180;
+    margin: 2em;
+    border-color:aqua;
+    border-width: 5px;
+    border-style:double;
+}
+
+.text {
+    display:block;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 4px;
+    color:aliceblue;
+    text-align: justify;
+    padding-right: 5px;
+}
+
+
+
+
+/* button */
+
+
+.my-button {
+    background-color: #4CAF50; Green 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.my-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+

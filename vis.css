@@ -1,0 +1,67 @@
+*{
+text-decoration: none;
+}
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+h1 {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2em; /* Adjust the font size as needed */
+margin: 0;
+color: white;
+background-color: blue;
+padding: 5px;
+}
+
+/* Style the logo image */
+.logo {
+width: 50px; /* Adjust the width of the logo as needed */
+height: auto; /* Maintain aspect ratio */
+margin-right: 15px; /* Space between logo and text */
+}
+li{
+display: inline;
+margin-left: 15px;
+}
+ul{
+background-color: blue;
+padding: 10px;
+margin: 0px;
+padding-left: 60%;
+}
+a{
+font-weight: bolder;
+font-size: larger;
+color: white; 
+font-family: sans-serif;
+}
+a:hover{
+color: lightgreen;
+}
+.des {
+    padding: 4px;
+
+}
+.my-button {
+    background-color: #4CAF50; Green 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.my-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
